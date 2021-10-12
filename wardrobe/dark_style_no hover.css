@@ -1,0 +1,315 @@
+﻿body
+{
+  font-family: 'Hiragino Sans GB W3', sans-serif;
+  font-size: 1.2em;
+
+  color: var(--font-color);
+  background: var(--color-background);
+
+  white-space: pre-wrap;
+  text-align: justify;
+  margin-left: 250px;
+  margin-right: 250px;
+  line-height: 200%;
+}
+
+h1 {
+font-size: 1.8em;
+}
+
+a:link
+{
+  text-decoration: none;
+  color: #D4D4D4;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: #D4D4D4;
+}
+
+
+
+ /* Style the header: fixed position (always stay at the top) */
+.header {
+  position: fixed;
+  top: 0;
+  width: 68%;
+  background-color: inherit;
+  height:60px;
+  white-space: normal;
+
+}
+
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 3px;
+  background: #6a6967;
+  width: 0%;
+  position: 20px;
+  white-space: normal;
+  
+} 
+
+/* fullscreen */
+
+.buttonFull {
+opacity: 0.25;
+background: transparent;
+cursor: pointer;
+position:fixed;
+font-family: 'Hiragino Sans GB W3', sans-serif;
+font-size: 10px;
+bottom:10px;
+left:40px; 
+}
+.buttonFull:hover {
+    opacity: 1 !important;
+}
+
+/* applied for all elements that go to fullscreen */
+:fullscreen { 
+	/* CSS properties */
+}
+
+/* applied for specific element */
+#container:fullscreen { 
+	/* CSS properties */
+}
+
+/* Safari */
+:-webkit-full-screen {
+	
+}
+
+/* Safari */
+#container:-webkit-full-screen {
+	
+}
+
+
+/**** Bookmarks ****/
+#save {
+    position:fixed;
+    bottom:40px;
+    left:13px;
+    width:20%;
+}
+#saved {
+    visibility:hidden;
+    color:#6a6967;
+    font-family: 'Hiragino Sans GB W3', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#box {
+  position: absolute;
+  background-color: #d4d9dc;
+  opacity: 0.2;
+  height: 2em;
+  width: 100%;
+  left: 0;
+  top: 60px;
+  transition: 0.3s top;
+}
+
+#takeMeToSave {
+  opacity: 0.25;
+  cursor: pointer;  
+  background: transparent;
+  position: fixed;
+  bottom:10.5px;
+  left:130px;
+}
+
+#takeMeToSave:hover {
+    opacity: 1 !important;
+}
+
+
+.buttonSave {
+opacity: 0.25;
+cursor: pointer;
+position:fixed;
+background: transparent;
+font-family: 'Hiragino Sans GB W3', sans-serif;
+color:#6a6967;
+font-size: 10px;
+bottom:12px;
+left:113px;
+}
+.buttonSave:hover {
+    opacity: 1 !important;
+}
+
+/**** Timer ****/
+
+.buttonTimerStart {
+opacity: 0.25;
+background: transparent;
+cursor: pointer;
+position:fixed;
+font-family: 'Hiragino Sans GB W3', sans-serif;
+color:#6a6967;
+font-size: 12px;
+bottom:45px;
+right:45px; 
+
+}
+.buttonTimerStart:hover {
+    opacity: 1 !important;
+}
+
+.buttonTimerReset {
+opacity: 0.25;
+cursor: pointer;
+position:fixed;
+color: #FB8C00;
+font-family: 'Hiragino Sans GB W3', sans-serif;
+font-size: 12px;
+bottom:45px;
+right:15px; 
+}
+.buttonTimerReset:hover {
+    opacity: 1 !important;
+}
+
+#milisec {
+    visibility:hidden;
+    color:#6a6967;
+    font-family: 'Hiragino Sans GB W3', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/**** Zoom ****/
+
+.buttonZoomIn {
+opacity: 0.25;
+cursor: pointer;
+position:fixed;
+color: #FB8C00;
+font-family: 'Hiragino Sans GB W3', sans-serif;
+font-size: 12px;
+bottom:10px;
+left:85px; 
+}
+
+.buttonZoomIn:hover {
+    opacity: 1 !important;
+}
+
+.buttonZoomOut {
+opacity: 0.25;
+cursor: pointer;
+position:fixed;
+color: #FB8C00;
+font-family: 'Hiragino Sans GB W3', sans-serif;
+font-size: 12px;
+bottom:10px;
+left:65px;
+}
+.buttonZoomOut:hover {
+    opacity: 1 !important;
+}
+
+
+
+/**** StyleSwitcher ****/
+
+.theme-dark {
+  --color-background: #1C1C1C;
+  --font-color: #D4D4D4;
+}
+.theme-light {
+  --color-background: #F4ECD8;
+  --font-color: #1F1F1F;
+}
+
+
+.container button {
+  color: var(--font-color);
+  background: var(--color-primary);
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: fixed;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+  bottom:12px;
+  left:5px; 
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  opacity: 0.85;  
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  opacity: 0.85; 
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 0px;
+  bottom: 2px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0px 7px #2020203d;
+  background: gray url('https://i.ibb.co/FxzBYR9/night.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider {
+  background-color: #424242;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(12px);
+  -ms-transform: translateX(12px);
+  transform: translateX(12px);
+  background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
