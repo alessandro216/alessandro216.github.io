@@ -1,6 +1,6 @@
 ﻿body {
   font-family: 'Hiragino Sans GB W3', sans-serif;
-  font-size: 19px;
+  font-size: 17px;
   
   color: var(--font-color);
   background: var(--color-background);
@@ -8,19 +8,10 @@
   max-width: 80%;
   white-space: pre-line;
   text-align: justify;
-  margin-left: 20%;
-  margin-right: 0%;
-  line-height: 200%;
-}
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (max-device-width : 780px) {
   margin-left: 10%;
-  margin-right: 0%;
-  max-width: 90%;
-  font-size: 18px;
+  margin-right: 10%;
+  line-height: 160%;
 }
-
 
 h1 {
 font-size: 1.8em;
