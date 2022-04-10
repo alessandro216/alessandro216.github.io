@@ -14,10 +14,10 @@
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (max-device-width : 580px) {
+and (max-device-width : 780px) {
   margin-left: 10%;
   margin-right: 0%;
-  max-width: 70%;
+  max-width: 90%;
   font-size: 18px;
 }
 
