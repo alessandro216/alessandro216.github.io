@@ -5,11 +5,11 @@
   color: var(--font-color);
   background: var(--color-background);
 
-  max-width: 75%;
+  max-width: 80%;
   white-space: pre-line;
   text-align: justify;
   margin-left: 10%;
-  margin-right: 15%;
+  margin-right: 10%;
   line-height: 160%;
 }
 
