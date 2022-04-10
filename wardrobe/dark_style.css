@@ -1,11 +1,11 @@
 ﻿body {
   font-family: 'Hiragino Sans GB W3', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   
   color: var(--font-color);
   background: var(--color-background);
 
-  max-width: 80%;
+  max-width: 70%;
   white-space: pre-line;
   text-align: justify;
   margin-left: 10%;
