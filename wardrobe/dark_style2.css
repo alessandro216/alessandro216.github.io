@@ -5,11 +5,11 @@ body {
   color: var(--font-color);
   background: var(--color-background);
 
-  max-width: 80%;
+  max-width: 76%;
   white-space: pre-line;
   text-align: justify;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 12%;
+  margin-right: 12%;
   line-height: 160%;
 }
 
@@ -171,7 +171,7 @@ font-family: 'Hiragino Sans GB W3', sans-serif;
 color:#6a6967;
 font-size: 12px;
 bottom:10px;
-right:120px; 
+right:150px; 
 
 }
 .buttonTimerStart:hover {
@@ -186,7 +186,7 @@ color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
 bottom:10px;
-right:90px; 
+right:120px; 
 }
 .buttonTimerReset:hover {
     opacity: 1 !important;
