@@ -170,8 +170,8 @@ position:fixed;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 color:#6a6967;
 font-size: 12px;
-bottom:10px;
-right:130px; 
+bottom:11px;
+right:110px; 
 
 }
 .buttonTimerStart:hover {
@@ -185,8 +185,8 @@ position:fixed;
 color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
-bottom:10px;
-right:100px; 
+bottom:11px;
+right:80px; 
 }
 .buttonTimerReset:hover {
     opacity: 1 !important;
