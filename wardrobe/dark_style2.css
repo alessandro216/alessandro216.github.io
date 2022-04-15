@@ -1,16 +1,16 @@
-﻿body {
+body {
   font-family: 'Hiragino Sans GB W3', sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   
   color: var(--font-color);
   background: var(--color-background);
 
-  max-width: 60%;
+  max-width: 80%;
   white-space: pre-line;
   text-align: justify;
-  margin-left: 20%;
-  margin-right: 0%;
-  line-height: 200%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 160%;
 }
 
 h1 {
