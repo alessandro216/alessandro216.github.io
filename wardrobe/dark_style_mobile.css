@@ -78,7 +78,7 @@ position:fixed;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 10px;
 bottom:10px;
-left:50px; 
+left:45px; 
 }
 .buttonFull:hover {
     opacity: 1 !important;
@@ -137,7 +137,7 @@ left:50px; 
   background: transparent;
   position: fixed;
   bottom:10.5px;
-  left:165px;
+  left:140px;
 }
 
 #takeMeToSave:hover {
@@ -154,7 +154,7 @@ font-family: 'Hiragino Sans GB W3', sans-serif;
 color:#6a6967;
 font-size: 10px;
 bottom:12px;
-left:140px;
+left:130px;
 }
 .buttonSave:hover {
     opacity: 1 !important;
@@ -224,7 +224,7 @@ color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
 bottom:10px;
-left:110px; 
+left:100px; 
 }
 
 .buttonZoomIn:hover {
@@ -239,7 +239,7 @@ color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
 bottom:10px;
-left:85px;
+left:75px;
 }
 .buttonZoomOut:hover {
     opacity: 1 !important;
