@@ -51,7 +51,7 @@ p:hover {
    position:fixed;
    bottom:0;
    width:100%;
-   height:50px;   /* Height of the footer */
+   height:40px;   /* Height of the footer */
    background-color: inherit;
    white-space: normal;
 }
@@ -170,7 +170,7 @@ position:fixed;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 color:#6a6967;
 font-size: 12px;
-bottom:40px;
+bottom:30px;
 right:45px; 
 
 }
@@ -185,7 +185,7 @@ position:fixed;
 color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
-bottom:40px;
+bottom:30px;
 right:15px; 
 }
 .buttonTimerReset:hover {
