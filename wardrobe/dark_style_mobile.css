@@ -199,8 +199,8 @@ position:fixed;
 color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
-bottom:8px;
-right:15px; 
+bottom:9px;
+right:18px; 
 }
 .buttonTimerInvisible:hover {
     opacity: 1 !important;
