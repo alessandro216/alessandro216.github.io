@@ -65,7 +65,7 @@ p.hanzi {
 	right: 15px;
 	font-size: 10px;
 	color: #6a6967;
-	opacity: 0.25;
+	opacity: 0.3;
 }
 
 p.page {
@@ -75,7 +75,7 @@ p.page {
 	right: 15px;
 	font-size: 10px;
 	color: #6a6967;
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 p.percentage {
@@ -85,7 +85,7 @@ p.percentage {
 	right: 15px;
 	font-size: 10px;
 	color: #6a6967;
-	opacity: 0.75;
+	opacity: 0.5;
 }
 
 /* The progress bar (scroll indicator) */
