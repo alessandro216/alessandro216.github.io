@@ -431,10 +431,10 @@ background: green;
   top: 0px;
 }
 
-/* Toggled State */
+/* Toggled State #1C1C1C*/
 input[type=checkbox]:checked ~ div {
 visibility: visible;
-background-color: #1C1C1C;
+background-color: yellow;
 z-index:100; 
 line-height: 0px;
 
