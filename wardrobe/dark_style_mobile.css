@@ -42,7 +42,7 @@ p:hover {
   top: 0;
   width: 100%;
   background-color: inherit;
-  height:40px;
+  height:50px;
   white-space: normal;
 
 }
@@ -51,7 +51,7 @@ p:hover {
    position:fixed;
    bottom:0;
    width:100%;
-   height:35px;   /* Height of the footer */
+   height:37px;   /* Height of the footer */
    background-color: inherit;
    white-space: normal;
 }
