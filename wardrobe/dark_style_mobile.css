@@ -65,6 +65,7 @@ p.hanzi {
 	right: 15px;
 	font-size: 10px;
 	color: #6a6967;
+	z-index:-1; 
 }
 
 p.page {
@@ -74,6 +75,7 @@ p.page {
 	right: 15px;
 	font-size: 10px;
 	color: #6a6967;
+	z-index:-1; 
 }
 
 p.percentage {
@@ -83,6 +85,7 @@ p.percentage {
 	right: 15px;
 	font-size: 10px;
 	color: #6a6967;
+	z-index:-1; 
 }
 
 /* The progress bar (scroll indicator) */
@@ -399,5 +402,41 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* Checkbox Hack (Numbers top) */
+
+input[type=checkbox] {
+   position: fixed;
+ top: -9999px;
+  left: -9999px;
+}
+label { 
+  -webkit-appearance: push-button;
+  -moz-appearance: button; 
+
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+
+}
+
+/* Default State */
+div {
+
+background: invisible;
+ width: 120%;
+  height: 37px;
+  line-height: 0px;
+  color: white;
+  top: 0px;
+}
+
+/* Toggled State */
+input[type=checkbox]:checked ~ div {
+visibility: visible;
+background-color: #1C1C1C;
+z-index:100; 
+line-height: 0px;
+
 }
 
