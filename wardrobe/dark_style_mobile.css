@@ -42,7 +42,7 @@ p:hover {
   top: 0;
   width: 100%;
   background-color: inherit;
-  height:53px;
+  height:50px;
   white-space: normal;
 
 }
@@ -68,6 +68,7 @@ p.hanzi {
 }
 
 p.page {
+	line-height: 0px;
 	position: fixed; 
 	top: 10px; 
 	right: 15px;
@@ -75,16 +76,14 @@ p.page {
 	color: #6a6967;
 }
 
-
 p.percentage {
+	line-height: 0px;
 	position: fixed; 
 	top: 20px; 
 	right: 15px;
 	font-size: 10px;
 	color: #6a6967;
 }
-
-
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
