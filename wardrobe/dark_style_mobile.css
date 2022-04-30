@@ -56,6 +56,15 @@ p:hover {
    white-space: normal;
 }
 
+/* Numbers top */
+
+p.hanzi {
+	position: fixed; 
+	top: 1px; 
+	right: 15px;
+	font-size: 10px;
+	color: #6a6967;
+}
 
 
 /* The progress bar (scroll indicator) */
