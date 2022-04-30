@@ -66,6 +66,24 @@ p.hanzi {
 	color: #6a6967;
 }
 
+p.page {
+	position: fixed; 
+	top: 11px; 
+	right: 15px;
+	font-size: 10px;
+	color: #6a6967;
+}
+
+
+p.percentage {
+	position: fixed; 
+	top: 21px; 
+	right: 15px;
+	font-size: 10px;
+	color: #6a6967;
+}
+
+
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
