@@ -227,11 +227,7 @@ right:80px; 
 }
 
 #hour, #min, #sec {
-        position: fixed; 
-	bottom: 5px; 
-	right: 15px;
-	font-size: 10px;
-	color: #6a6967;
+
 	line-height: 0px;
 }
 
