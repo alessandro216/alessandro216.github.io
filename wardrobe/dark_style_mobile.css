@@ -32,9 +32,6 @@ p{
 opacity: 0.75;
 
 }
-p:hover {
-    opacity: 1 !important;
-}
 
  /* Style the header: fixed position (always stay at the top) */
 .header {
