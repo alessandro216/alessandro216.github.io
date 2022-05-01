@@ -404,3 +404,28 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+/* Checkbox Hack (Numbers Top Invisible) */
+label {
+display:block;
+background: yellow;
+width:100px;
+height:40px;
+position: absolute; 
+opacity: 0 !important;
+line-height: 0px;
+right: 8px;
+z-index:100;
+
+}
+
+#demo:checked + label {
+background:inherit;
+color:white;
+opacity: 1 !important;
+}
+
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
