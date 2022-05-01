@@ -165,9 +165,7 @@ left:45px; 
   left:100px;
 }
 
-#takeMeToSave:hover {
-    opacity: 1 !important;
-}
+
 
 
 .buttonSave {
@@ -181,9 +179,7 @@ font-size: 10px;
 bottom:12px;
 left:75px;
 }
-.buttonSave:hover {
-    opacity: 1 !important;
-}
+
 
 /**** Timer ****/
 
@@ -196,11 +192,8 @@ font-family: 'Hiragino Sans GB W3', sans-serif;
 color:#6a6967;
 font-size: 12px;
 bottom:11px;
-right:110px; 
+right:150px; 
 
-}
-.buttonTimerStart:hover {
-    opacity: 1 !important;
 }
 
 .buttonTimerReset {
@@ -211,7 +204,7 @@ color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
 bottom:11px;
-right:80px; 
+right:120px; 
 }
 
 .buttonTimerInvisible {
@@ -221,8 +214,8 @@ position:fixed;
 color: #FB8C00;
 font-family: 'Hiragino Sans GB W3', sans-serif;
 font-size: 12px;
-bottom:9px;
-right:18px; 
+bottom:11px;
+right:80px; 
 }
 
 #milisec {
