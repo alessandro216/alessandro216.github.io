@@ -22,7 +22,7 @@ function startStop() { /* Toggle StartStop */
 
 
 function start() {
-  x = setInterval(timer, 10);
+  x = setInterval(timer, 100);
 } /* Start */
 
 function stop() {
