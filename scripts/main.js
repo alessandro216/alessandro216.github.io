@@ -36,7 +36,7 @@ const percentLabel = document.querySelector("#percent");
     // var totalCount = document.body.innerText.replace(/[!-~\d\s\u3002\u201C\uFF1F\u201D\uFF01\uFF0C\uFF1A]+/gi,'').match(/[\u00ff-\uffff]|\S+/g);
     
     //anacreon way
-    var totalCount = document.body.innerText.replace(/[!-~\d\s\u3002\uFF1F\uFF01\uFF1A]+/gi,'').match(/[\u00ff-\uffff]|\S+/g);
+    var totalCount = document.body.innerText.replace(/[!-~\d\s\u3002\uFF1F\uFF01\uFF1A]+/gi,'');
     document.getElementById("counter").innerHTML = totalCount.length;  /* change totalcount number for fix */
 
     let pagecount = (totalCount.length) /350; /* change totalcount number for fix */
@@ -54,7 +54,7 @@ const percentLabel = document.querySelector("#percent");
     // const totalCount = document.body.innerText.replace(/[!-~\d\s\u3002\u201C\uFF1F\u201D\uFF01\uFF0C\uFF1A]+/gi,'').match(/[\u00ff-\uffff]|\S+/g).length;
 
     //anacreon way
-    const totalCount = document.body.innerText.replace(/[!-~\d\s\u3002\uFF1F\uFF01\uFF1A]+/gi,'').match(/[\u00ff-\uffff]|\S+/g).length;
+    const totalCount = document.body.innerText.replace(/[!-~\d\s\u3002\uFF1F\uFF01\uFF1A]+/gi,'').length;
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height);
