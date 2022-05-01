@@ -22,7 +22,7 @@ function startStop() { /* Toggle StartStop */
 
 
 function start() {
-  x = setInterval(timer, 100);
+  x = setInterval(timer, 1);
 } /* Start */
 
 function stop() {
@@ -55,7 +55,7 @@ function timer() {
 
   milisec = ++milisec;
   
-  if (milisec == 1000) {
+  if (milisec == 100) {
     milisec = 0;
     sec = ++sec;
   }
