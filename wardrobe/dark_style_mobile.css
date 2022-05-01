@@ -226,13 +226,6 @@ right:80px; 
     font-weight: bold;
 }
 
-#hour, #min, #sec {
-
-	line-height: 0px;
-}
-
-
-
 /**** Selected Text ****/
 
 #selectednumber {
