@@ -57,7 +57,7 @@ function timer() {
   
   if (milisec == 100) {
     milisec = 0;
-    sec = ++sec;
+    sec = ++sec*0.5;
   }
 
   if (sec == 60) {
