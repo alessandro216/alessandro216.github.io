@@ -55,7 +55,7 @@ function timer() {
 
   milisec = ++milisec;
   
-  if (milisec == 200) {
+  if (milisec == 180) {
     milisec = 0;
     sec = ++sec;
   }
